@@ -16,12 +16,12 @@ from log import Logger
 import traceback
 
 #可以从https://shop.hostmonit.com获取
-KEY = "o1zrmHAF"
+KEY = "o1zrmHAFfgfw"
 
 #CM:移动 CU:联通 CT:电信
 #修改需要更改的dnspod域名核子域名
 DOMAINS = {
-    "hostmonit.com": {"@": ["CM","CU","CT"], "shop": ["CM", "CU", "CT"], "stock": ["CM","CU","CT"]},
+    "alyhh.ml": {"@": ["CM","CU","CT"], "shop": ["CM", "CU", "CT"], "stock": ["CM","CU","CT"]},
     "4096.me": {"@": ["CM","CU","CT"], "vv": ["CM","CU","CT"]}
 }
 
@@ -37,8 +37,8 @@ TTL = 600
 #API 密钥
 #腾讯云后台获取 https://console.cloud.tencent.com/cam/capi
 #阿里云后台获取 https://help.aliyun.com/document_detail/53045.html?spm=a2c4g.11186623.2.11.2c6a2fbdh13O53  注意需要添加DNS控制权限 AliyunDNSFullAccess
-SECRETID = 'LTAI5t63tjLRvSjjmQCoSy7D'
-SECRETKEY = 'OKzKOVtMAAvuzdsMHROPl7y69IVK16'
+SECRETID = 'AKID73j8H9k47tOcZFemeFafT07xWopZ2FBr'
+SECRETKEY = 'RcW9VaOvBAtLWQ4QVJq77qITN0MSIr9A'
 
 log_cf2dns = Logger('cf2dns.log', level='debug') 
 urllib3.disable_warnings()
